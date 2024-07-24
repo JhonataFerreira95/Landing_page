@@ -31,6 +31,17 @@ header img{
  margin: 1rem auto;
 }
 
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav a{
+    color: var(--color-balck);
+    font-size: 1.25rem;
+
+}
+
 .mt-1 {
     margin-top: 1rem;
     }
