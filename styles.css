@@ -39,7 +39,25 @@ header nav{
 nav a{
     color: var(--color-balck);
     font-size: 1.25rem;
+    padding: .5rem;
+    text-decoration: none;
+}
 
+header nav a:nth-child(2n-1){
+    text-align: right;
+}
+
+.button{
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-balck);
+    box-shadow: 4px 4px 0 var(--color-balck);
+    color: var(--color-balck);
+    font-size: 1.25rem;
+    padding: .75rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .mt-1 {
