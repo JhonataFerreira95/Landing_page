@@ -127,10 +127,32 @@ h2{
     margin-bottom: 4rem;
 }
 
-.card{
+.card {
  background-color: var(--color-primary);
  border: 2px solid var(--color-balck);
+ box-shadow: 4px 4px 0 var(--color-balck);
+ max-width: 17rem;
+ padding: 2rem 0 0 2rem;
 }
+
+.card:nth-child(2n) {
+    align-self: end;
+    background-color: var(--color-secondary);
+}
+
+.card strong {
+    display: block;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.card a {
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+
 
 .mt-1 {
     margin-top: 1rem;
