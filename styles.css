@@ -159,6 +159,24 @@ footer {
     padding: 1rem 1.25rem 4rem;
 }
 
+footer nav a {
+    display: block;
+    padding-left: 0;
+}
+
+.newsletter-form label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsletter-form input {
+    border: 2px solid var(--color-balck);
+    box-shadow: 4px 4px 0 var(--color-balck);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
 /* Utilitarios */
 .mt-1 {
     margin-top: 1rem;
